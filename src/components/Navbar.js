@@ -17,21 +17,17 @@ const Navbar = () => {
           <ul>
             <li>
               <Link className="p-color" href="/">
-                /home
+                Home
               </Link>
             </li>
             <li>
               <Link className="p-color" href="/commands">
-                /commands
+                Commands
               </Link>
             </li>
             <li>
-              <Link
-                className="p-color"
-                href="https://github.com/preetsuthar17/discord-bot-website-template"
-                target="_blank"
-              >
-                /source-code
+              <Link className="p-color" href="/privacypolicy">
+                Privacy Policy
               </Link>
             </li>
           </ul>

@@ -15,7 +15,7 @@ const Showcase = () => {
           Your journey in the wasteland begins here.
         </h2>
         <p className="showcase-para p-color">
-          Join thousands of players in this interactive, text-based RPG. Build
+          Join players in this interactive, text-based RPG. Build
           your shelter, conquer zones, and lead your faction to glory!
         </p>
 

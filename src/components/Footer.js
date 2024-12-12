@@ -38,18 +38,13 @@ const Footer = () => {
           <div className="footer-items">
             <ul>
               <li>
+                <Link className="p-color" href="/">
+                  Home
+                </Link>
+              </li>
+              <li>
                 <Link className="p-color" href="/commands">
-                  /commands
-                </Link>
-              </li>
-              <li>
-                <Link className="p-color" href="#">
-                  /support
-                </Link>
-              </li>
-              <li>
-                <Link className="p-color" href="#">
-                  /factions
+                  Commands
                 </Link>
               </li>
             </ul>
@@ -57,31 +52,12 @@ const Footer = () => {
         </div>
         <div className="footer-sec2">
           <hr />
-          <div>
-            <p className="p-color">
-              Created with ❤️ by{" "}
-              <Link
-                href="https://github.com/preetsuthar17"
-                className="h-color no-decoration"
-              >
-                Preet Suthar
-              </Link>
-            </p>
-            <p className="p-color">{year} &copy; All rights reserved!</p>
-          </div>
           <div className="footer-sec2-link">
             <Link className="p-color no-decoration" href="#">
-              /support
-            </Link>
-            <Link
-              target="_blank"
-              className="p-color no-decoration"
-              href="https://github.com/preetsuthar17/discord-bot-website-template"
-            >
-              /source-code
+              Terms of Service
             </Link>
             <Link className="p-color no-decoration" href="#">
-              /privacy
+              Privacy Policy
             </Link>
           </div>
         </div>
