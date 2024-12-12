@@ -12,7 +12,7 @@ const Footer = () => {
             <ul>
               <li>
                 <Link className="h-color" href="/">
-                  bot.gg
+                  The Scraplands
                 </Link>
                 <span
                   style={{
@@ -49,7 +49,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link className="p-color" href="#">
-                  /discord-server
+                  /factions
                 </Link>
               </li>
             </ul>
