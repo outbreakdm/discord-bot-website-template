@@ -5,29 +5,31 @@ const About = () => {
     <>
       <section className="about-section" id="about-section">
         <div className="about-header">
-          <h3 className="h-color">Why use this bot?</h3>
+          <h3 className="h-color">What is The Scraplands?</h3>
         </div>
         <div className="about-container">
           <div className="about-card">
             <div>
-              <h4 className="h-color">⚡ Commands</h4>
+              <h4 className="h-color">⚔️ Engage in Exploration</h4>
               <p className="p-color">
-                We have more than 200 commands support in this bot.
+                Discover post-apocalyptic zones, gather resources, and compete
+                for control with other factions!
               </p>
               <hr />
             </div>
             <div>
-              <h4 className="h-color">✉️ 24/7 Support</h4>
+              <h4 className="h-color">🏠 Build Your Shelter</h4>
               <p className="p-color">
-                The biggest support community server for the bot available for
-                you anytime.
+                Upgrade your shelter to unlock bonuses and gain an edge in the
+                wasteland.
               </p>
               <hr />
             </div>
             <div>
-              <h4 className="h-color">✏️ Customization</h4>
+              <h4 className="h-color">🔥 Compete for Faction Glory</h4>
               <p className="p-color">
-                Fully customizable discord bot completely FREE!
+                Join the Scavengers or Wardens, and dominate contested zones for
+                your faction.
               </p>
               <hr />
             </div>
@@ -35,22 +37,22 @@ const About = () => {
         </div>
         <p>
           <Link href="/commands" className="h-color no-decoration">
-            Check out Commands &rarr;
+            Learn More About Gameplay &rarr;
           </Link>
         </p>
 
         <section className="about-stats">
           <div className="about-stats-card">
             <h4 className="h-color">17k+</h4>
-            <p className="p-color">Total Servers</p>
+            <p className="p-color">Active Servers</p>
           </div>
           <div className="about-stats-card">
             <h4 className="h-color">94k+</h4>
-            <p className="p-color">Total Users</p>
+            <p className="p-color">Active Players</p>
           </div>
           <div className="about-stats-card">
             <h4 className="h-color">375k+</h4>
-            <p className="p-color">Total Commands</p>
+            <p className="p-color">Explorations Completed</p>
           </div>
         </section>
       </section>
