@@ -13,7 +13,6 @@ export default function Home() {
   return (
     <>
       <Head>
-        <div class="background-container"></div>
         <title>The Scraplands</title>
         <meta
           name="description"
