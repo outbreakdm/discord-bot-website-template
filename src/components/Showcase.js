@@ -10,26 +10,26 @@ const Showcase = () => {
       animate={{ opacity: 1 }}
     >
       <main className="showcase">
-        <h1 className="showcase-header h-color">BOT</h1>
+        <h1 className="showcase-header h-color">The Scraplands</h1>
         <h2 className="showcase-header-text h-color">
-          The only discord bot you need!
+          Your journey in the wasteland begins here.
         </h2>
         <p className="showcase-para p-color">
-          One of the awesome discord bot with tons of commands that will fill
-          your needs in your discord server.
+          Join thousands of players in this interactive, text-based RPG. Build
+          your shelter, conquer zones, and lead your faction to glory!
         </p>
 
         <span className="p-color">Bot is online!</span>
         <div className="showcase-btn">
           <button className="btn">
             <Link className="h-color no-decoration" href="#">
-              Invite now!
+              Invite Now!
             </Link>
           </button>
 
           <button className="btn">
             <Link className="h-color no-decoration" href="#">
-              Join server!
+              Join Server!
             </Link>
           </button>
         </div>
