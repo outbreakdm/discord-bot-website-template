@@ -9,6 +9,8 @@ const Showcase = () => {
       }}
       animate={{ opacity: 1 }}
     >
+      <div class="background-container"></div>
+
       <main className="showcase">
         <h1 className="showcase-header h-color">The Scraplands</h1>
         <h2 className="showcase-header-text h-color">
