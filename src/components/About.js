@@ -4,6 +4,7 @@ const About = () => {
   return (
     <>
       <section className="about-section" id="about-section">
+        <div class="background-container"></div>
         <div className="about-header">
           <h3 className="h-color">What is The Scraplands?</h3>
         </div>
